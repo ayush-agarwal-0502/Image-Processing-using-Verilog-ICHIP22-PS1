@@ -20,6 +20,28 @@ In this PS1 , we were required to read a grayscale image and perform image proce
 
 Verilog files for the project have been uploaded in this repository . We have made a module "pixel operator" which takes in a pixel and performs the required operation on it as per the parameter and select line values given to the module . Then we converted the image into a 1D array with hex values using MATLAB, fed it into the verilog testbench , and in it , we fed each pixel one by one , performed the required operation on it, then stored the output pixel value in a 1D array , then outputted the array , and converted the array back to image using MATLAB . 
 
+## Results :
+
+The original image :
+
+![image](https://user-images.githubusercontent.com/86561124/163807700-20e7866b-0eee-43dc-9ff9-3b20823d2538.png)
+
+Brightened Image :
+
+![image](https://user-images.githubusercontent.com/86561124/163808104-34052c87-a5c7-4085-968c-9992dce5f13e.png)
+
+Darkened Image :
+
+![image](https://user-images.githubusercontent.com/86561124/163808145-0fac3518-5a9e-4550-975f-d0349d4a8804.png)
+
+Thresholded image :
+
+![image](https://user-images.githubusercontent.com/86561124/163808204-2d19de6e-6312-4656-8cf0-2f73d02142e7.png)
+
+Inverted Image :
+
+![image](https://user-images.githubusercontent.com/86561124/163808237-297c1d05-46b1-4831-83cf-4f4791eaef63.png)
+
 ## Verilog Module :
 
 The logic behind the module an be easily understood by reading it . This module does the required function on a single pixel .
@@ -39,7 +61,4 @@ The code has been explained via comments , please refer to the verilog file atta
 ![image](https://user-images.githubusercontent.com/86561124/163807407-e62b971a-05e6-4a61-b369-fa9ce57a179d.png)
 
 ![image](https://user-images.githubusercontent.com/86561124/163807418-17ac9483-7ef0-45d8-a8ec-44a5e8bc543b.png)
-
-## Results :
-
 
